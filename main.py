@@ -42,7 +42,7 @@ def caesar_cipher_decrypt(text, shift):
 
 # Example usage
 text = "abcdwxyzABCDWXYZ123890"
-shift = 3
+shift = 90 % 10
 ciphered_text = caesar_cipher_encrypt(text, shift)
 deciphered_text = caesar_cipher_decrypt(ciphered_text, shift)
 
